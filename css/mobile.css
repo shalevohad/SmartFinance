@@ -2,7 +2,9 @@
   flex-direction: column;
   height: 200px;
   padding: 20px;
-  position: relative;
+  /* position: relative; */
+  z-index: 100;
+  opacity: 0.9;
 }
 
 .navbar ul {
@@ -14,6 +16,10 @@
 .navbar a {
   padding: 10px 10px;
   margin: 0 3px;
+}
+
+.navbar.top {
+  background: #333;
 }
 
 .flex-items {
