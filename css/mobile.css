@@ -1,0 +1,40 @@
+.navbar {
+  flex-direction: column;
+  height: 200px;
+  padding: 20px;
+  position: relative;
+}
+
+.navbar ul {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  padding: 10px 10px;
+  margin: 0 3px;
+}
+
+.flex-items {
+  flex-direction: column;
+}
+
+.flex-columns .column, .flex-grid .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.team img {
+  width: 80%;
+}
+
+.back-to-top-main {
+  bottom: 5vh;
+  opacity: 0.6;
+}
+
+.back-to-top-main > div {
+  padding: 30px;
+}
+
